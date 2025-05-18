@@ -1,0 +1,8 @@
+@media (min-width: 375px) {
+    .main-container[class] {
+        --explore_padding-inline: 24px;
+    }
+    .secondlast-nav-container{
+        margin-inline:24px; 
+}
+}
