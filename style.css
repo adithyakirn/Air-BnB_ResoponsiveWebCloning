@@ -720,7 +720,7 @@ button {
     overflow: visible;
 }
 .unique-stays-button{
-    margin: 6px 6px 6px -11px;
+    margin: 6px 6px 6px -10px;
     border: none;
     line-height: 1.125rem;
     font-size: 0.865rem;
@@ -966,6 +966,9 @@ button {
     padding: 8px;
     margin-left: -16px;
 }
+.padding-top{
+    padding-top: 0;
+}
 .end-credits-ul-container{
     list-style: none;
     margin: 0 0 0 8px;
@@ -1073,7 +1076,7 @@ button {
 .sticky-nav-bottom-container{
     margin-bottom:0;
     padding: 0 4px 60px 4px;
-    display: none;
+    display: flex;
     align-items: center;
     border-top: 1px solid #EBEBEB;
     position: fixed;
@@ -1165,6 +1168,6 @@ button {
 .margin-left{
     margin-left: -3px;
 }
-.main-container{
+.main-contents-container{
     margin-bottom: 49px;
 }
