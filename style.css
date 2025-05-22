@@ -256,8 +256,8 @@ button {
 }
 .new-popup-container{
     padding: 3px 6.1px;
-    top: -12.5px;
-    left: 44px;
+        top: -5px;
+    left: 36px;
     transform-origin: bottom left;
     font-size: 0.5rem;
     box-shadow: 
@@ -1367,6 +1367,10 @@ button {
     .left{
         left: 5px;
     }
+    .new-popup-container{
+        top: -12.5px;
+        left: 44px;
+    }
     .left-popup{
         left: 46.5px;
     }
@@ -1394,9 +1398,6 @@ button {
     }
     .span-underline{
         width: 27.5px;
-    }
-    .span-underline-left{
-        /* left: 10px; */
     }
     .right{
         position: relative;
@@ -1783,7 +1784,7 @@ button {
         box-shadow: none;
     }
     .underline-container-desktop {
-        left: 31%;
+        left: 30.6%;
         margin-top: 5px;
     }
     .secondlast-nav-container {
