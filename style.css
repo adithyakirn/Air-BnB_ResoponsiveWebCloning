@@ -255,9 +255,10 @@ button {
     font-weight: 400;
 }
 .new-popup-container{
-    padding: 3px 6px;
+    padding: 3px 6.1px;
+    top: -12.5px;
+    left: 44px;
     transform-origin: bottom left;
-    left: 100%;
     font-size: 0.5rem;
     box-shadow: 
     0 0.953955px 1.90791px rgba(60,77,107,0.25),0 3.81582px 5.72373px
@@ -268,21 +269,17 @@ button {
     display: inline-block;
     box-sizing: border-box;
     user-select: none;
-    top: -5px;
 }
 .popup-one{
     background-clip: text;
     text-align: center;
     font-weight:800;
     line-height: 0.625rem;
-    /* background: linear-gradient(173.86deg,
-        rgba(255, 255, 255, 0.9) 90.56%,
-        rgb(191, 205, 213, 0.9) 82.32%); */
     text-wrap: nowrap;
     position: relative;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
-    letter-spacing: 0.01rem;
+    letter-spacing: 0.02rem;
     color: var(--background-color);
 }
 .popup-two{
@@ -1318,7 +1315,7 @@ button {
         flex-direction: row;
         font-size: 0.875rem;
         font-weight: 600;
-        line-height: 1.125rem;
+        /* line-height: 1.125rem; */
         text-wrap: nowrap;
         color: var(--text-color);  
     }
@@ -1346,22 +1343,6 @@ button {
     .underline-container{
         display: none;
     }
-    /* .nav-and-category-bar-container{
-        background:linear-gradient(180deg, #ffffff 39.9%, #f8f8f8 100%);
-        height: 80px;
-        left: 0;
-        transform-origin:top;
-        transform: scaleY(2.5);
-        width: 100%;
-        top: 0;
-        position: absolute; 
-        }*/
-    .new-popup-container{
-        padding: 0 6px;
-        top: -13px;
-        left: 44px;
-        box-shadow: 0 0.953955px 1.90791px rgba(60,77,107,0.25),0 3.81582px 5.72373px rgba(60,77,107,0.25),inset 0 0 2px 0.5px #001c40,inset 0 -1px 3px #d7ebff;
-    }
     .homes-icon-container-span{
         transform: scale(1.15)
     }
@@ -1387,7 +1368,7 @@ button {
         left: 5px;
     }
     .left-popup{
-        left: 46px;
+        left: 46.5px;
     }
     .secondlast-nav-container{
         margin-top: 34px;
@@ -1652,7 +1633,7 @@ button {
         margin: 28px 15px 0px 0px;
     }
     .underline-container-desktop{
-        left: 232px;
+        left: 232.2px;
     }
     .last-nav-container{
         max-width: 850px;
