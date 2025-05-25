@@ -386,10 +386,6 @@ button {
     margin-inline-start: 2px;
     display: inline-block;
 }
-.empty-header-container{
-    user-select: none;
-    pointer-events: none;
-}
 .template-slider-container{
     margin-inline-end: 0;
     margin-inline-start: 0; 
@@ -424,14 +420,8 @@ button {
     overflow: auto hidden;
     min-height: 0;
     gap: 11px;
-    content-visibility: visible;
+
     contain: none;
-    contain-intrinsic-height: none;
-    contain-intrinsic-width: none;
-}
-.image-scroller-container{
-    scroll-snap-align: start;
-    scroll-snap-stop: normal;
 }
 .scroller-template-container{
     box-shadow: none;
@@ -440,19 +430,8 @@ button {
     width: 100%;
     min-width: 0;
     max-width: none;
-}
-.scroller-attribute{
-    position: absolute;
-    top: 0;
-    left :0;
-    padding: 0;
-    border: none;
-    background: transparent;
-    border-radius: 20px;
-    height: 100px;
-    width: 100%;
-    outline: none;
-    display: block;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
 }
 .image-scroll-container-first{
     flex-direction: column;
@@ -516,18 +495,13 @@ button {
     padding: 12px 12px 0;
     grid-template-rows: repeat(3, minmax(0, 1fr));
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-template-areas:
-                        'top-row top-row top-row'
-                        'middle-row middle-row middle-row'
-                        'bottom-row bottom-row bottom-row';
+    grid-template-areas: 'top-row top-row top-row' 'middle-row middle-row middle-row' 'bottom-row bottom-row bottom-row';
     overflow: hidden;
     position: absolute;
     display: grid;
     pointer-events: none;
     top: 0;
     bottom: 0; 
-    /* display: flex; */
-    /* justify-content: space-between; */
 }
 .grid-favourite-container{
     grid-template-columns: repeat(2, minmax(min-content, auto));
@@ -561,7 +535,6 @@ button {
     font-feature-settings: "salt";
     line-height: 0.8125rem;
     font-size: 0.6875rem;
-
 }
 .heart-container{
     display: flex;
